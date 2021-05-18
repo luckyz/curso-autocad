@@ -20,7 +20,7 @@ Para la seleccion, hay 2 formas:
 | line       | crea una linea. se define un punto de inicio y uno de fin |
 | xline      | crea una linea auxiliar, que no es mas que una linea de largo infinito |
 | offset     | copia y desplaza un elemento en tantas unidades como se indique |
-| trim       | recorta sobrantes basandose en intersecciones: primero se definen todos los objetos que intervienen, y luego se elige el que borrar |
+| trim       | recorta sobrantes segun intersecciones: primero se definen todos los objetos que intervienen, y luego se elige el que borrar |
 | extend     | extiende el largo de una linea hasta otra: primero se definen todos los objetos que intervienen, y luego se elige el que extender |
 | move       | desplaza un objeto |
 | erase      | borra un objeto completo |
