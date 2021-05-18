@@ -17,8 +17,16 @@ Para la seleccion, hay 2 formas:
 
 | Comando    | Accion |
 | ---------- | ------ |
-| line   | crea una linea. se define un punto de inicio y uno de fin |
-| xline  | crea una linea auxiliar, que no es mas que una linea de largo infinito |
-| offset | copia y desplaza un elemento en tantas unidades como se indique |
-| trim   | recorta sobrantes; primero se definen todos los objetos que intervienen, y luego se elige el que borrar |
-| extend | extiende el largo de una linea hasta otra; primero se definen todos los objetos que intervienen, y luego se elige el que extender |
+| line       | crea una linea. se define un punto de inicio y uno de fin |
+| xline      | crea una linea auxiliar, que no es mas que una linea de largo infinito |
+| offset     | copia y desplaza un elemento en tantas unidades como se indique |
+| trim       | recorta sobrantes basandose en intersecciones: primero se definen todos los objetos que intervienen, y luego se elige el que borrar |
+| extend     | extiende el largo de una linea hasta otra: primero se definen todos los objetos que intervienen, y luego se elige el que extender |
+| move       | desplaza un objeto |
+| erase      | borra un objeto completo |
+| text       | escribir texto en pantalla |
+| join       | juntar. convierte dos o mas lineas en una sola |
+| circle     | dibuja un circulo, pasandole el radio, diametro, o 3 puntos |
+| bhatch     | rellenar objetos cerrados con una trama |
+| rotate     | gira un objeto en tanto angulo se indique |
+| scale      | redimensiona un objeto |
